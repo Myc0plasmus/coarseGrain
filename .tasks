@@ -6,7 +6,7 @@
 
 # shell command, use quotation for filenames containing spaces
 # check ":AsyncTaskMacro" to see available macros
-command=python $(VIM_FILEPATH)  
+command=python $(VIM_FILEPATH) --input 430d.pdb --output 430d_cg.pdb 
 
 # working directory, can change to $(VIM_ROOT) for project root
 cwd=$(VIM_ROOT)
