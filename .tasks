@@ -20,6 +20,13 @@ pos=my_toggleterm
 # save file before execute
 save=1
 
+[run-python-to-pdb]
+command=python cg_to_pdb.py --input 430d_cg.pdb --output 430d_rec.pdb  
+cwd=$(VIM_ROOT)
+output=terminal
+pos=my_toggleterm
+save=1
+
 [test-help]
 command=python $(VIM_FILEPATH) --help  
 cwd=$(VIM_ROOT)
