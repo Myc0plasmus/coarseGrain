@@ -1,4 +1,4 @@
-# Coarse grain transformer scripts
+# Coarse grain transformer scripts - report 3 - task 3 - structural bioinfromatics
 
 Scripts pdb_to_cg.py and cg_to_pdb.py can convert .pdb file to coarse grain representation and back respectively.
 
