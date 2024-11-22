@@ -2,11 +2,11 @@
 # see: https://github.com/skywind3000/asynctasks.vim/wiki/Task-Config
 
 # define a new task named "file-build"
-[run-python]
+[run-python-to-cg]
 
 # shell command, use quotation for filenames containing spaces
 # check ":AsyncTaskMacro" to see available macros
-command=python $(VIM_FILEPATH) --input 430d.pdb --output 430d_cg.pdb 
+command=python pdb_to_cg.py --input ./430d.pdb --output 430d_cg.pdb 
 
 # working directory, can change to $(VIM_ROOT) for project root
 cwd=$(VIM_ROOT)
